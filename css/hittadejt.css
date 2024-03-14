@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#team{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    min-height: 100vh;
+}
+
+.team-heading h3{
+    font-size:30px;
+    padding:20px;
+}
+
+.team-box{
+    width:100%;
+    padding:20px;
+    user-select: none;
+    background:#b79898;
+}
+
+.t-b-img{
+    width:100%;
+    height:350px;
+    position:relative;
+}
+
+.t-b-img::after{
+    content:'';
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height:150px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,)100%);
+
+}
+
+.t-b-img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position: bottom;
+}
+
+.t-b-text{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    color:white;
+}
+
+.swiper{
+    max-width:745px;
+    width:100%;
+    padding-bottom: 50px;
+}
+
+.swiper-slide{
+    width: 300px !important;
+    opacity:0.2;
+    margin: 50px 0px;
+    margin-top:0px;
+}
+
+.swiper-slide-active{
+    opacity:1;
+    border: 10px solid #544b4b;
+}
