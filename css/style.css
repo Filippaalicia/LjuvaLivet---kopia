@@ -37,6 +37,7 @@ body {
   text-align:center;
 }
 
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -170,6 +171,8 @@ h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 10px;
+  font-size:400;
+  margin: 10px;
 }
 
 h2{
