@@ -223,6 +223,10 @@ h3{
   font-size: 15px;
 }
 
+.chatBtn:hover{
+  background-color: rgb(132, 107, 107);
+}
+
 .post1{
   padding-left: 20px;
   margin: 20px;
@@ -265,6 +269,6 @@ img.blogpost2{
 }
 
 h3 a{
-  color:#a18585;
+  color:#544b4b;
   text-decoration:none;
 }
